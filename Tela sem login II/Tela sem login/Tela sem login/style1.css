@@ -1,0 +1,169 @@
+/* estilos para o navbar */
+#container {
+  width:100%;
+  height: 9%;
+  padding:0%;
+  background-image: linear-gradient(to right, rgb(117, 111, 111), white);
+  position: fixed;
+}
+
+  ul#navbar img {
+    max-height: 50px;
+    float: left;
+  }
+
+  ul#navbar li {
+    float:right;
+    margin-right: 0%; 
+    font-family: Arial, Helvetica, sans-serif ;
+  }
+
+  /* estilos para os campos de entrada de pesquisa */
+  ul#navbar form {
+    float: center;
+    margin-left: 500px;
+    padding: 0px 20px 10px;
+    border-radius: 10px;
+  }
+
+  input[type="text"] {
+    width: 50%;
+    padding: 5px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #e4d8d8;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #aaa;
+    font-weight: normal;
+  }
+
+  ul#navbar li a {
+    display: block;
+    padding:20px 15px 4px;
+    font:bold 20px "Trebuchet MS";
+    text-decoration: none;
+    color:#5d5959;
+    letter-spacing: -0.1em;
+    margin-right: 50px;
+  }
+
+
+/* estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  }
+ 
+  i{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* estilos para o botão de login quando o mouse passa sobre ele */
+  input[type="button"]:hover {
+    background-color:#c8d1b9;
+  }
+
+  /* estilos para o botão das TAGs */
+.container{
+  background-color: #ddd8d8; 
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+  input[type="button"] {
+    background-color: #c20d0d;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 60px;
+	  margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 5px;
+  }
+
+  .button{
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 0px 5px 0px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+  }
+
+  /* Estilo Botao HOME */
+.button2 {
+  background-color: #f2f2f2;
+  border: none;
+  color: black;
+  padding: 10px 15px; 
+  font-size: 20px; 
+  cursor: pointer; 
+  border-radius: 10px;
+}
+
+/* Darker background on mouse-over */
+.button2:hover {
+  background-color: rgb(239, 247, 135);
+}
+
+  /* Estilo dos Cards*/  
+  .cards {
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px auto 0;
+    width: calc(300px * 1);
+  }
+  
+  .card {
+    box-shadow: 0 3px 10px 0 #aaa;
+    cursor: pointer;
+    height: 300px;
+    position: relative;
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: -300px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card.visited {
+    box-shadow: 0 3px 10px 2px #444;
+  }
+  
+  footer {
+    background: linear-gradient(to right, #960018, #d1001c);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  
+  #footer-image {
+    max-height: 25px;
+    margin-right: 20px; /* espaçamento entre imagem e borda esquerda do footer */
+  }
+
+  #footer-text {
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    margin-right: 10px; /* espaçamento entre imagem e texto */
+  }
