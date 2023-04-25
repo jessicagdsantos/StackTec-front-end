@@ -7,12 +7,25 @@
   <body>
     <img src="logo.png" class="logo" alt="Logo StackTec" />
     <form>
+      <label for="nickname">Apelido</label>
+      <input type="text" id="name" name="nickname" placeholder="Digite seu e-apelido aqui"> 
       <label for="name">Nome</label>
-      <input type="text" id="name" name="name" placeholder="Digite seu e-nome aqui"> 
-      <label for="date">Data de nascimento</label>
-      <input type="date" id="date" name="date" placeholder="Digite sua data de nascimento">    
+      <input type="text" id="date" name="nome" placeholder="Digite seu nome aqui">    
       <label for="e-mail">E-mail</label>
-      <input type="text" id="e-mail" name="e-mail" placeholder="Digite seu e-mail aqui">      
+      <input type="text" id="e-mail" name="e-mail" placeholder="Digite seu e-mail aqui"> 
+      <label for="semestre">Semestre</label>
+      <select id="semestre" name="semestre" required>
+        <option value="" disabled selected>Selecione um semestre</option>
+        <option value="1">1º semestre</option>
+        <option value="2">2º semestre</option>
+        <option value="3">3º semestre</option>
+        <option value="4">4º semestre</option>
+        <option value="5">5º semestre</option>
+        <option value="6">6º semestre</option>
+        <option value="7">7º semestre</option>
+        <option value="8">8º semestre</option>  
+      </select>
+      <br>
       <label for="password">Senha</label>
       <input type="password" id="password" name="password" placeholder="Digite sua senha aqui"> 
       <label for="password">Confirme sua senha</label>
