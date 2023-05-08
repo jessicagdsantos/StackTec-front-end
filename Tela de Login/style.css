@@ -73,6 +73,12 @@ body {
     background-color:#960018;
   }
 
+  .aindac{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: -10px;
+  }
+
   /* estilos para o botão de cadastro */
   input[type="button"] {
     background-color: #d1001c;
