@@ -25,7 +25,6 @@ window.addEventListener('beforeunload', () => {
 });
 
 window.addEventListener('load', () => {
-  typeFooterText();
   setInterval(() => {
     clearFooterText();
     typeFooterText();
